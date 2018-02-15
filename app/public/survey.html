@@ -167,17 +167,23 @@
   </div>
 
   <!-- Modal -->
-  <div id="modal1" class="modal">
+  <div id="modal1" class="modal" role="dialog">
          <!-- Modal content-->
-      <div class="modal-content">
-        <h4>Meet your match</h4>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4><strong>Meet your match</strong></h4>
+      </div>
+      <div class="modal-body">
         <h5 id= "matchName"></h5>
         <img id="matchPic" src="" alt="No Image" width = 250px>
       </div>
       <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
+  </div>
    
   </div>
 
