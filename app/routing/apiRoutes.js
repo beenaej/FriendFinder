@@ -25,6 +25,7 @@ module.exports = function(app) {
       var friendCount = 0;
       var bestMatch = 0;
 
+      //go through all the friends in the list
       for (var i=0; i < friendsList.length; i++){
         var scoreDiff = 0;
         //go through the scores to compare friends
