@@ -23,7 +23,7 @@ module.exports = function(app) {
       var newFriendScores = req.body.scores;  //here we get the current friend's scores from the body
       var scoresArray = [];
       var friendCount = 0;
-      var bestMatch = 0;
+      var bestMatch = 0;  //because the person with the best match will be closest to 0
 
       //go through all the friends in the list
       for (var i=0; i < friendsList.length; i++){
